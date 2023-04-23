@@ -26,7 +26,6 @@ def Get_text_from_image(pdf_path, res):
         im=Image.open(io.BytesIO(imgBlob))
         text=pytesseract.image_to_string(im,lang='eng')
         extracted_text.append(text)
-
     return (extracted_text)
 
 def convert(s):
