@@ -1,5 +1,4 @@
 import os
-import pandas as pd
 import io
 from PIL import Image
 import pytesseract
